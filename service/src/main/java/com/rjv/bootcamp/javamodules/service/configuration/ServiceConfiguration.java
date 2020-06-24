@@ -12,7 +12,7 @@ import java.util.List;
 
 @Configuration
 @ComponentScan("com.rjv.bootcamp.javamodules.service.*")
-@EntityScan("com.rjv.bootcamp.javamodules.domain.*")
+@EntityScan("com.rjv.bootcamp.javamodules.domain")
 @EnableJpaRepositories("com.rjv.bootcamp.javamodules.service.repository")
 public class ServiceConfiguration {
 
