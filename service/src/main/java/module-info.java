@@ -1,9 +1,9 @@
 module com.rjv.bootcamp.javamodules.service {
 
-//    requires java.xml.ws.annotation;
     requires spring.beans;
     requires spring.context;
     requires spring.data.jpa;
+    requires spring.boot.autoconfigure;
     requires com.h2database;
 
     requires com.rjv.bootcamp.javamodules.domain;

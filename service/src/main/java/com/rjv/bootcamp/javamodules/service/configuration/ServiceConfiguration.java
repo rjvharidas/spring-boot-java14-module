@@ -2,18 +2,17 @@ package com.rjv.bootcamp.javamodules.service.configuration;
 
 import com.rjv.bootcamp.javamodules.domain.Movie;
 import com.rjv.bootcamp.javamodules.service.repository.MovieRepository;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import java.util.List;
-import java.util.Random;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 @Configuration
 @ComponentScan("com.rjv.bootcamp.javamodules.service.*")
+@EntityScan("com.rjv.bootcamp.javamodules.domain.*")
 @EnableJpaRepositories("com.rjv.bootcamp.javamodules.service.repository")
 public class ServiceConfiguration {
 
