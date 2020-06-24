@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project version="4"> 
+  <component name="AntConfiguration"> 
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false"/>  
+    <option name="FILTER_TARGETS" value="false"/> 
+  </component>  
+  <component name="CodeStyleManager"> 
+    <option name="USE_DEFAULT_CODE_STYLE_SCHEME" value="true"/>  
+    <option name="CODE_STYLE_SCHEME" value=""/> 
+  </component>  
+  <component name="CompilerConfiguration"> 
+    <wildcardResourcePatterns>
+      <entry name="!?*.java"/>
+    </wildcardResourcePatterns>
+  </component>  
+  <component name="EntryPointsManager"> 
+    <entry_points/> 
+  </component>  
+  <component name="ExportToHTMLSettings"> 
+    <option name="PRINT_LINE_NUMBERS" value="false"/>  
+    <option name="OPEN_IN_BROWSER" value="false"/>  
+    <option name="OUTPUT_DIRECTORY"/> 
+  </component>  
+  <component name="ImportConfiguration"> 
+    <option name="VENDOR"/>  
+    <option name="RELEASE_TAG"/>  
+    <option name="LOG_MESSAGE"/>  
+    <option name="CHECKOUT_AFTER_IMPORT" value="true"/> 
+  </component>  
+  <component name="InspectionProjectProfileManager"> 
+    <profile version="1.0"> 
+      <option name="myName" value="Project Default"/>  
+      <inspection_tool class="AnonymousClassComplexity" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_limit" value="3"/> 
+      </inspection_tool>  
+      <inspection_tool class="AnonymousClassMethodCount" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_limit" value="1"/> 
+      </inspection_tool>  
+      <inspection_tool class="AssignmentToNull" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="ClassComplexity" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_limit" value="80"/> 
+      </inspection_tool>  
+      <inspection_tool class="ClassCoupling" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_includeJavaClasses" value="false"/>  
+        <option name="m_includeLibraryClasses" value="false"/>  
+        <option name="m_limit" value="15"/> 
+      </inspection_tool>  
+      <inspection_tool class="ClassInheritanceDepth" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_limit" value="2"/> 
+      </inspection_tool>  
+      <inspection_tool class="ClassInitializer" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="ClassNestingDepth" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_limit" value="1"/> 
+      </inspection_tool>  
+      <inspection_tool class="CloneInNonCloneableClass" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="CloneableImplementsClone" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_ignoreCloneableDueToInheritance" value="false"/> 
+      </inspection_tool>  
+      <inspection_tool class="ConstructorCount" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="ignoreDeprecatedConstructors" value="false"/>  
+        <option name="m_limit" value="5"/> 
+      </inspection_tool>  
+      <inspection_tool class="ErrorRethrown" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="FieldCount" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_countConstantFields" value="false"/>  
+        <option name="m_considerStaticFinalFieldsConstant" value="false"/>  
+        <option name="myCountEnumConstants" value="false"/>  
+        <option name="m_limit" value="10"/> 
+      </inspection_tool>  
+      <inspection_tool class="MethodCount" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_limit" value="20"/>  
+        <option name="ignoreGettersAndSetters" value="false"/>  
+        <option name="ignoreOverridingMethods" value="false"/> 
+      </inspection_tool>  
+      <inspection_tool class="NonFinalFieldInEnum" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="NullThrown" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="ObsoleteCollection" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="ignoreRequiredObsoleteCollectionTypes" value="true"/> 
+      </inspection_tool>  
+      <inspection_tool class="OnDemandImport" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="OverlyStrongTypeCast" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="ignoreInMatchingInstanceof" value="false"/> 
+      </inspection_tool>  
+      <inspection_tool class="RedundantFieldInitialization" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="RedundantImplements" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="ignoreSerializable" value="false"/>  
+        <option name="ignoreCloneable" value="false"/> 
+      </inspection_tool>  
+      <inspection_tool class="ReturnThis" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="SimplifiableEqualsExpression" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="SystemOutErr" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="UnnecessarilyQualifiedStaticUsage" enabled="true" level="WARNING" enabled_by_default="true"> 
+        <option name="m_ignoreStaticFieldAccesses" value="false"/>  
+        <option name="m_ignoreStaticMethodCalls" value="false"/>  
+        <option name="m_ignoreStaticAccessFromStaticContext" value="false"/> 
+      </inspection_tool>  
+      <inspection_tool class="UnnecessaryConstructor" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="UnnecessarySuperQualifier" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="UnnecessaryThis" enabled="true" level="WARNING" enabled_by_default="true"/>  
+      <inspection_tool class="UtilityClassWithPublicConstructor" enabled="true" level="WARNING" enabled_by_default="true"/> 
+    </profile>  
+    <version value="1.0"/> 
+  </component>  
+  <component name="JUnitProjectSettings"> 
+    <option name="TEST_RUNNER" value="UI"/> 
+  </component>  
+  <component name="JavacSettings"> 
+    <option name="DEBUGGING_INFO" value="true"/>  
+    <option name="GENERATE_NO_WARNINGS" value="false"/>  
+    <option name="DEPRECATION" value="true"/>  
+    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
+    <option name="MAXIMUM_HEAP_SIZE" value="128"/>  
+    <option name="USE_GENERICS_COMPILER" value="false"/> 
+  </component>  
+  <component name="JavadocGenerationManager"> 
+    <option name="OUTPUT_DIRECTORY"/>  
+    <option name="OPTION_SCOPE" value="protected"/>  
+    <option name="OPTION_HIERARCHY" value="false"/>  
+    <option name="OPTION_NAVIGATOR" value="false"/>  
+    <option name="OPTION_INDEX" value="false"/>  
+    <option name="OPTION_SEPARATE_INDEX" value="false"/>  
+    <option name="OPTION_USE_1_1" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false"/>  
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="false"/>  
+    <option name="OPTION_DEPRECATED_LIST" value="false"/>  
+    <option name="OTHER_OPTIONS"/>  
+    <option name="HEAP_SIZE"/>  
+    <option name="OPEN_IN_BROWSER" value="false"/> 
+  </component>  
+  <component name="JikesSettings"> 
+    <option name="DEBUGGING_INFO" value="true"/>  
+    <option name="DEPRECATION" value="true"/>  
+    <option name="GENERATE_NO_WARNINGS" value="false"/>  
+    <option name="GENERATE_MAKE_FILE_DEPENDENCIES" value="false"/>  
+    <option name="DO_FULL_DEPENDENCE_CHECK" value="false"/>  
+    <option name="IS_INCREMENTAL_MODE" value="false"/>  
+    <option name="IS_EMACS_ERRORS_MODE" value="true"/>  
+    <option name="ADDITIONAL_OPTIONS_STRING" value=""/>  
+    <option name="MAXIMUM_HEAP_SIZE" value="128"/> 
+  </component>  
+  <component name="ProjectCodeStyleConfiguration"> 
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default"/>  
+    <code_scheme name="Project" version="173"> 
+      <JavaCodeStyleSettings> 
+        <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="5000"/> 
+      </JavaCodeStyleSettings>  
+      <ScalaCodeStyleSettings> 
+        <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true"/> 
+      </ScalaCodeStyleSettings>  
+      <codeStyleSettings language="JAVA"> 
+        <option name="SPACE_BEFORE_IF_PARENTHESES" value="false"/>  
+        <option name="SPACE_BEFORE_WHILE_PARENTHESES" value="false"/>  
+        <option name="SPACE_BEFORE_FOR_PARENTHESES" value="false"/>  
+        <option name="SPACE_BEFORE_TRY_PARENTHESES" value="false"/>  
+        <option name="SPACE_BEFORE_CATCH_PARENTHESES" value="false"/>  
+        <option name="SPACE_BEFORE_SWITCH_PARENTHESES" value="false"/>  
+        <option name="SPACE_BEFORE_SYNCHRONIZED_PARENTHESES" value="false"/>  
+        <option name="SPACE_BEFORE_METHOD_LBRACE" value="false"/>  
+        <option name="SPACE_BEFORE_IF_LBRACE" value="false"/>  
+        <option name="SPACE_BEFORE_ELSE_LBRACE" value="false"/>  
+        <option name="SPACE_BEFORE_FOR_LBRACE" value="false"/> 
+      </codeStyleSettings> 
+    </code_scheme> 
+  </component>  
+  <component name="ProjectModuleManager"> 
+    <modules> 
+      <module filepath="$PROJECT_DIR$/spring-boot-java14-module.iml"/>
+      <module filepath="$PROJECT_DIR$/api/api.iml"/>
+      <module filepath="$PROJECT_DIR$/service/service.iml"/>
+      <module filepath="$PROJECT_DIR$/domain/domain.iml"/>
+    </modules> 
+  </component>  
+  <component name="ProjectRootManager" version="2" project-jdk-name="14." assert-keyword="true" jdk-15="true"/>  
+  <component name="VcsDirectoryMappings"> 
+    <mapping directory="$PROJECT_DIR$" vcs="Git"/> 
+  </component> 
+</project>
